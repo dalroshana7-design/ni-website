@@ -40,7 +40,7 @@ export const Footer: React.FC = () => {
 </a>
               <Caption className="text-border">•</Caption>
 <a href="#" className="hover:text-text-primary">
-  Privacy
+  Terms
 </a>
             </div>
           </div>
