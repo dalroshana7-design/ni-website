@@ -39,9 +39,9 @@ export const Footer: React.FC = () => {
   <Caption>Privacy</Caption>
 </a>
               <Caption className="text-border">•</Caption>
-              <Caption as="a" href="#" className="hover:text-text-primary">
-                Terms
-              </Caption>
+             <a href="#" className="hover:text-text-primary">
+  <Caption>Terms</Caption>
+</a>
             </div>
           </div>
         </div>
