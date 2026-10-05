@@ -10,10 +10,10 @@ export const HeroSection: React.FC = () => {
         <div className="max-w-3xl">
           {/* Main Hero */}
           <div className="mb-16 md:mb-20 lg:mb-24">
-            <Heading level="h1" style="hero" className="mb-4">
+            <Heading level="h1"  className="mb-4">
               NI
             </Heading>
-            <Heading level="h2" style="subhero" className="text-h2-subhero md:text-h2-subhero-lg">
+            <Heading level="h2"  className="text-h2-subhero md:text-h2-subhero-lg">
               I build things.
             </Heading>
           </div>
