@@ -35,9 +35,9 @@ export const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <Caption>© {currentYear} NI. All rights reserved.</Caption>
             <div className="flex gap-4">
-              <Caption as="a" href="#" className="hover:text-text-primary">
-                Privacy
-              </Caption>
+             <a href="#" className="hover:text-text-primary">
+  <Caption>Privacy</Caption>
+</a>
               <Caption className="text-border">•</Caption>
               <Caption as="a" href="#" className="hover:text-text-primary">
                 Terms
